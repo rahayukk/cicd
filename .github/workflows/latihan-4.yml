@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
     inputs:
       nama_siswa:
-        description: 'Rahayu Avila Rahma Mukti'
+        description: 'Tulis nama kamu'
         required: true
-        default: 'Siswa TJKT'
+        default: 'Rahayu Avila Rahma Mukti'
 
 jobs:
   test:
